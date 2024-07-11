@@ -1,0 +1,199 @@
+/* Estilos gerais */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Cor de fundo escura */
+    color: #ffffff; /* Cor do texto */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante altura mínima de 100% da viewport */
+}
+
+
+/* Cabeçalho */
+header {
+    background-color: #1a1a1a; /* Cor de fundo escura para o cabeçalho */
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    color: #03a9f4; /* Cor azul para o título */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #03a9f4; /* Cor azul ao passar o mouse */
+}
+
+/* Seção do herói */
+.hero {
+    background-image: url('/assets/img/hero-bg.jpg'); /* Imagem de fundo para o herói (opcional) */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+/* Seção de produtos */
+.products {
+    padding: 80px 0;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.products h2 {
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 300px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.product p {
+    margin: 10px 0;
+    color: #cccccc;
+}
+
+.product button {
+    background-color: #03a9f4;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #0278ae; /* Cor de hover um pouco mais escura */
+}
+
+/* Seção do carrinho */
+.cart {
+    background-color: #1a1a1a;
+    padding: 80px 0;
+    text-align: center;
+    margin-bottom: calc(40px + 20px);
+}
+
+.cart h2 {
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.cart-items {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cart-items p {
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+
+.cart-total {
+    margin-top: 20px;
+}
+
+.cart-total h3 {
+    color: #ffffff;
+}
+
+.cart-total span {
+    font-weight: bold;
+}
+
+.cart-total button {
+    background-color: #03a9f4;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.cart-total button:hover {
+    background-color: #0278ae;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    color: #cccccc;
+    margin: 0;
+}

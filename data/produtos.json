@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nome": "Gift Card da PlayStore",
+        "descricao": "Créditos para comprar apps, jogos, músicas e mais na Google PlayStore.",
+        "preco": 50.00,
+        "imagem": "gift-card-playstore.png"
+    },
+    {
+        "id": 2,
+        "nome": "Gift Card da Xbox Live",
+        "descricao": "Créditos para comprar jogos, filmes, músicas e mais na Xbox Live.",
+        "preco": 60.00,
+        "imagem": "gift-card-xbox.png"
+    },
+    {
+        "id": 3,
+        "nome": "Gift Card da Steam",
+        "descricao": "Créditos para comprar jogos e software na plataforma Steam.",
+        "preco": 100.00,
+        "imagem": "gift-card-steam.png"
+    }
+]

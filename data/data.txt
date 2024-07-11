@@ -1,0 +1,73 @@
+
+[
+    {
+        "id": 1,
+        "nome": "Gift Card da PlayStore",
+        "descricao": "Créditos para comprar apps, jogos, músicas e mais na Google PlayStore.",
+        "preco": 50.00,
+        "imagem": "gift-card-playstore.png"
+    },
+    {
+        "id": 2,
+        "nome": "Gift Card da Xbox Live",
+        "descricao": "Créditos para comprar jogos, filmes, músicas e mais na Xbox Live.",
+        "preco": 60.00,
+        "imagem": "gift-card-xbox.png"
+    },
+    {
+        "id": 3,
+        "nome": "Gift Card da Steam",
+        "descricao": "Créditos para comprar jogos e software na plataforma Steam.",
+        "preco": 100.00,
+        "imagem": "gift-card-steam.png"
+    },
+    {
+        "id": 4,
+        "nome": "Gift Card da PlayStation Store",
+        "descricao": "Créditos para comprar jogos, filmes, músicas e mais na PlayStation Store.",
+        "preco": 75.00,
+        "imagem": "gift-card-playstation.png"
+    },
+    {
+        "id": 5,
+        "nome": "Gift Card da Amazon",
+        "descricao": "Créditos para comprar uma ampla variedade de produtos na Amazon.",
+        "preco": 200.00,
+        "imagem": "gift-card-amazon.png"
+    },
+    {
+        "id": 6,
+        "nome": "Gift Card da Netflix",
+        "descricao": "Créditos para assinatura de serviço de streaming de filmes e séries na Netflix.",
+        "preco": 50.00,
+        "imagem": "gift-card-netflix.png"
+    },
+    {
+        "id": 7,
+        "nome": "Gift Card da iTunes Store",
+        "descricao": "Créditos para comprar músicas, filmes e apps na iTunes Store.",
+        "preco": 25.00,
+        "imagem": "gift-card-itunes.png"
+    },
+    {
+        "id": 8,
+        "nome": "Gift Card da Nintendo eShop",
+        "descricao": "Créditos para comprar jogos e conteúdo adicional na Nintendo eShop.",
+        "preco": 30.00,
+        "imagem": "gift-card-nintendo.png"
+    },
+    {
+        "id": 9,
+        "nome": "Gift Card da Spotify",
+        "descricao": "Créditos para assinatura de serviço de streaming de música na Spotify.",
+        "preco": 20.00,
+        "imagem": "gift-card-spotify.png"
+    },
+    {
+        "id": 10,
+        "nome": "Gift Card da Uber",
+        "descricao": "Créditos para uso em viagens de carro através do aplicativo da Uber.",
+        "preco": 50.00,
+        "imagem": "gift-card-uber.png"
+    }
+]
